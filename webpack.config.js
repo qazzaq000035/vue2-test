@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/main.js', //['webpack/hot/dev-server' , './src/main.js'],
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/dist/',
+    publicPath: '/docs/',
     filename: 'build.js'
   },
   module: {
